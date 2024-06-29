@@ -45,8 +45,8 @@
                           <h2 class="accordion-header" id="heading' . $game['gameid'] . '">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' . $game['gameid'] . '"
                                   aria-expanded="false" aria-controls="collapse' . $game['gameid'] . '">
-                                  #' .  $game['gameid'] . '&nbsp<strong>' . $game['title'] . '</strong>
-                              </button>
+                                  #' .  $game['gameid'] . '&nbsp<strong>' . $game['title'] . '</strong>&nbsp - ' . $game['status'] .
+                    '</button>
                           </h2>
                           <div id="collapse' . $game['gameid'] . '" class="accordion-collapse collapse" aria-labelledby="heading' . $game['gameid'] . '"
                               data-bs-parent="#accordionExample">
